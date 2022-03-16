@@ -1,0 +1,40 @@
+block sample_block {
+    register output_resolution_inst0 {
+        offset 0
+        field horizontal {
+            lsb 0
+            size 16
+        }
+        field vertical {
+            lsb 16
+            size 16
+        }
+    }
+
+    register output_resolution_inst1 {
+        offset 0
+        field horizontal {
+            lsb 0
+            size 16
+        }
+        field vertical {
+            lsb 16
+            size 16
+        }
+    }
+
+    register output_resolution_inst2 {
+        offset 0
+        field horizontal {
+            lsb 0
+            size 16
+        }
+        field vertical {
+            lsb 16
+            size 16
+        }
+    }
+}
+
+sample_block inst0
+sample_block inst1

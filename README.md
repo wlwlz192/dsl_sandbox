@@ -14,20 +14,20 @@
 
 ```
 {
-  register: {
+  registers: [{
     name: 'output_resolution',
     offset: 0,
-    field: {
+    fields: [{
       name: 'horizontal',
       lsb: 0,
       size: 16
     },
-    field: {
+    {
       name: 'vertical',
       lsb: 15,
       size: 16
-    }
-  }
+    }]
+  }]
 }
 ```
 
