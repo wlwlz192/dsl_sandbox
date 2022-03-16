@@ -1,0 +1,13 @@
+block 'sample_block' do
+    for i in 0...3
+        register "output_resolution_inst#{i}" do
+            offset i*32
+            field('horizontal', lsb: 0, size: 16)
+            field('vertical', lsb: 16, size: 16)
+        end
+    end
+end
+
+for i in 0...2
+    sample_block "inst#{i}"
+end
